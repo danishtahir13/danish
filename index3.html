@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .important{
+        font-weight: bold;
+        font-size: xx-large;
+       }
+
+       .blue{
+        color: blue;
+       }
+    </style>
+</head>
+<body>
+
+
+<script src="js.js"></script>
+
+    <script>
+    
+    
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("h1, h2, p").addClass("blue");
+        $("div").addClass("important");
+      });
+    });
+          
+
+    </script>
+    
+
+
+<h1>Heading</h1>
+<h2>Heading</h2>
+
+<P>This is a paragraph.</P>
+<p>This is anothar paragraph.</p>
+
+<div>This is some important text!</div>
+
+<button>Add classes to elements</button>
+
+
+
+</body>
+</html>
